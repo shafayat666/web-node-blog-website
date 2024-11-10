@@ -1,0 +1,14 @@
+<%- include("header.ejs") %>
+
+    <section class="post-creation">
+        <form action="/edit-new" method="post" class="w-100">
+            <input type="hidden" name="index" value="<%= index %>">
+            <input type="text" name="title" id="" required value="<%= data["title"] %>" class="form-control mb-3">
+            <br>
+            <textarea rows="10" name="post-body" id="" required class="form-control mb-3"><%= data["content"] %></textarea>
+            <br>
+            <button class="btn btn-primary w-100" type="submit">Submit</button>
+        </form>
+    </section>
+
+<%- include("footer.ejs") %>

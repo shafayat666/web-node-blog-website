@@ -1,0 +1,20 @@
+html {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+main {
+    flex: 1; 
+}
+
+.post-creation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}

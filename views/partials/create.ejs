@@ -1,0 +1,17 @@
+<%- include("header.ejs") %>
+
+    <section class="post-creation">
+        <form action="/create" method="post" class="w-100">
+            <input type="text" name="user" id="" placeholder="Your Name" class="form-control mb-3" required>
+            <br>
+            <input type="text" name="title" id="" placeholder="Title" class="form-control mb-3" required>
+            <br>
+            <textarea rows="10" name="post-body" id="" class="form-control mb-3" required></textarea>
+            <br>
+
+            <button class="btn btn-primary w-100" type="submit">Submit</button>
+        </form>
+    </section>
+
+
+<%- include("footer.ejs") %>
