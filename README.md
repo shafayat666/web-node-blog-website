@@ -15,8 +15,6 @@ A responsive and feature-rich blog website created with Node.js, Express, EJS, a
 
 This project is a simple yet functional blog website where users can create and view blog posts. Each post includes a title, content, and date. This version does not store data persistently; posts are managed within the session.
 
-Try the live demo [here](#).
-
 ![preview](./preview.gif)
 
 ## Features
